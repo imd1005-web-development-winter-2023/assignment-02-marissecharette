@@ -1,29 +1,195 @@
 <!DOCTYPE html>
-<html lang="en-ca">
-  <head>
-    <!-- Set the page title -->
-    <title>Assignment 02</title>
 
-    <!-- Set the charset we're using to UTF-8 -->
-    <meta charset="UTF-8" />
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.cdnfonts.com/css/anurati" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/xse6ume.css">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>OUR ECOLOGY</h1>
+        <p><a href="#">Home</a></p>
+        <p><a href="#mission">Mission</a></p>
+        <p><a href="#">Community</a></p>
+        <p><a href="#news">News</a></p>
+        <p><a href="#">About Us</a></p>
+        <p><a href="#contact">Contact</a></p>
+        <p><a href="#donate">Donate</a></p>
+        <!-- Search bar text and icon -->
+            <a><input type="text" placeholder="Search"></a>
+                <img src="search.png" alt="Search icon" width="30">
+    </div>
 
-    <!-- Set the screens default zoom / scale to 1 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <!-- Specifies the document mode for Internet Explorer -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Hero -->
+    <div class="hero">
+        <h1>MAKE A CHANGE TO THE <br>
+            ENVIRONMENT TODAY.</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
+            tempor incididunt ut labore et dolore magna aliqua. Et ligula ullamcorper <br>
+            malesuada proin libero. Platea dictumst vestibulum rhoncus est pellentesque <br>
+            elit ullamcorper dignissim cras. Eget nullam non nisi est sit amet facilisis <br>
+            magna etiam. Quam adipiscing vitae proin sagittis nisl rhoncus mattis <br>
+            rhoncus urna. Est placerat in egestas erat imperdiet sed euismod nisi. Blandit <br>
+            volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Ipsum <br>
+            consequat nisl vel pretium lectus quam id leo. Donec massa sapien faucibus <br>
+            et molestie. Interdum velit laoreet id donec ultrices tincidunt arcu. Eu sem <br>
+            integer vitae justo eget magna. Eget mauris pharetra et ultrices neque. <br>
+        </p>
 
-    <!-- We are using a CSS Reset file to standardize browser default css -->
-    <link rel="stylesheet" href="reset.css" />
+        <!-- Donate button text -->
+        <div class="donate" id="donate">
+            <p><a href="#">DONATE</a></p>
+        </div>
 
-    <!-- This is where all of our awesome CSS code goes -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!--
+        <!-- Polar bear background image -->
+        <div class="polarbear">
+            <img src="polarbear.jpg" alt="Polar bear"/>
+        </div>
+    </div>
 
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+    <!-- Mission -->
+    <div class="mission" id="mission">
+        <h2>OUR MISSION</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
+            tempor incididunt ut labore et dolore magna aliqua. Dui sapien eget mi <br>
+            proin. Vitae purus faucibus ornare suspendisse sed nisi lacus sed. <br>
+            Ut eu sem integer vitae justo eget. Vitae sapien pellentesque habitant <br>
+            morbi tristique senectus et netus. Quam lacus suspendisse faucibus <br>
+            interdum posuere. Tortor at auctor urna nunc id cursus. <br>
+            <br>
+            Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. <br>
+            Amet est placerat in egestas erat imperdiet sed. Est pellentesque <br>
+            elit ullamcorper dignissim cras tincidunt lobortis. Et magnis dis <br>
+            parturient montes nascetur ridiculus. <br>
+        </p>
+        <!-- Silhouettes of birds image -->
+        <img src="birds.png" alt="Silhouettes of birds"/>
+        <!-- Learn More button -->
+        <p id="learnmore"> Learn More </p>
+    </div>
+    <!-- News -->
+    <div class="newstitle">
+        <h2>RECENT NEWS</h2>
+    </div>
 
-    -->
-  </body>
+    <div class="news">
+        <div class="newscontainer"></div>
+            <nav>
+                <ul>
+                    <li>
+                        
+                            <div class="newsbox" id="news">
+                                <img class="newsimage" src="forest.jpg" title="name" width="400">
+                                <h3>Title of article...</h3>
+                                <p>Important description here...</p>
+                                <a href="#"><h4>Read More</h4></a>
+                            </div>
+                    </li>
+                    <li>
+                            <div class="newsbox">
+                                <img class="newsimage" src="lions.jpg" title="name" width="400">
+                                <h3>Title of article...</h3>
+                                <p>Important description here..</p>
+                                <a href="#"><h4>Read More</h4></a>
+                            </div>
+                    </li>
+                    <li>
+                            <div class="newsbox">
+                                <img class="newsimage" src="parrots.jpg" title="name" width="400">
+                                <h3>Title of article...</h3>
+                                <p>Important description here..</p>
+                                <a href="#"><h4>Read More</h4></a>
+                            </div>
+                    </li>
+                    <li>
+                            <div class="newsbox">
+                                <img class="newsimage" src="dolphins.jpg" title="name" width="400">
+                                <h3>Title of article...</h3>
+                                <p>Important description here..</p>
+                                <a href="#"><h4>Read More</h4></a>
+                            </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+    <!-- Contact -->
+    <div class="contact" id="contact">
+        <form action="#">
+            <p>Contact Us</p>
+
+            <!-- Name -->
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name">
+            <br>
+
+            <!-- Email -->
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email">
+            <br>
+
+            <!-- Message -->
+            <label for="message">Message</label>
+            <textarea id="message" rows="20" placeholder="Write your message here."></textarea>
+            <br>
+
+            <!-- Send button -->
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footerlogo">
+            <h3>OUR ECOLOGY <br></h3>
+            <p>ourecology@gmail.com <br>
+                123-456-7890</p>    
+        </div>
+
+        <div class="footertext">
+            <h3>ABOUT</h3>
+            <p>Who we are<br>
+                Our initiative<br>
+                Events<br>
+                Partners<br>
+                FAQ
+            </p>
+        </div>
+
+        <div class="footertext">
+            <h3>MENU</h3>
+            <p>Mission<br>
+                Community<br>
+                About us<br>
+                Contact<br>
+                Donate
+            </p>
+        </div>
+
+        <div class="footertext">
+            <h3>CAREERS</h3>
+            <p>Full-time jobs<br>
+                Part-time jobs<br>
+                Volunteer
+            </p>
+        </div>
+
+        <!-- Newsletter email submission-->
+        <div class="footertext">
+            <h3>NEWSLETTER</h3>
+            <p>
+                <a><input type="email" placeholder="Email"></a>
+            </p>
+            <button type="submit">Receive Updates</button>
+        </div>
+    </div>
+</body>
 </html>
